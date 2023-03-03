@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_button"
+    tools:context=".korisnik.Kactivity">
+
+
+    <RadioGroup
+        android:id="@+id/radioOpcije"
+        android:layout_width="370dp"
+        android:layout_height="46dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35000002">
+
+
+        <RadioButton
+            android:id="@+id/radioButtonMale"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:fontFamily="@font/carter_one"
+            android:text="@string/pomoc_kod_kuce"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFemale"
+            android:layout_width="203dp"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/carter_one"
+            android:text="@string/pomoc_van_kuce"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+    </RadioGroup>
+
+    <ImageButton
+        android:id="@+id/posaljizahtev"
+        android:layout_width="377dp"
+        android:layout_height="60dp"
+        android:background="#AB00B6FF"
+        android:contentDescription="@string/zatrazipomoc"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.755" />
+
+    <EditText
+        android:id="@+id/imeprezime"
+        android:layout_width="377dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:fontFamily="@font/carter_one"
+        android:hint="@string/unesite_vase_ime_i_prezime"
+        android:inputType="textShortMessage"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.44"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/kratakopis"
+        android:layout_width="377dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:fontFamily="@font/carter_one"
+        android:inputType="textMultiLine"
+        android:hint="@string/kratak_opis"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/brojtelefona"
+        android:layout_width="377dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:fontFamily="@font/carter_one"
+        android:hint="@string/unesite_vas_broj_telefona"
+        android:inputType="phone"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55"
+        android:autofillHints="" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/pomoc_kod_kuce"
+            app:srcCompat="@drawable/pomockodkuce" />
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.83"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="160dp"
+            android:layout_height="150dp"
+            android:contentDescription="@string/pomoc_van_kuce"
+            app:srcCompat="@drawable/pomocvankuce" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/logaut"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.96"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        android:contentDescription="@string/logout" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/zatrazite_pomoc"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/posaljizahtev"
+        app:layout_constraintEnd_toEndOf="@+id/posaljizahtev"
+        app:layout_constraintStart_toStartOf="@+id/posaljizahtev"
+        app:layout_constraintTop_toTopOf="@+id/posaljizahtev" />
+
+    <ImageButton
+        android:id="@+id/zatrazenapomoc"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_baseline_dashboard_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        android:contentDescription="@string/zatrazene" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

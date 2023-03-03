@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Uvek Tu Za Vas</string>
+    <string name="s_password">Unesite lozinku</string>
+    <string name="s_username">Unesite korisnicko ime</string>
+    <string name="string_registracija">Registrujte se</string>
+    <string name="s_email">Email</string>
+    <string name="s_password1">Potvrdite lozinku</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="style_json">
+  [
+    {
+      \"featureType\": \"poi.business\",
+      \"elementType\": \"all\",
+      \"stylers\": [
+        {
+          \"visibility\": \"off\"
+        }
+      ]
+    },
+    {
+      \"featureType\": \"transit\",
+      \"elementType\": \"labels.icon\",
+      \"stylers\": [
+        {
+          \"visibility\": \"off\"
+        }
+      ]
+    }
+  ]
+
+  </string>
+    <string name="nazad">nazad</string>
+    <string name="slika1">slika1</string>
+    <string name="pomoc_kod_kuce">Pomoc kod kuce</string>
+    <string name="pantelic_uros">Pantelic Uros</string>
+    <string name="_066666666">066666666</string>
+    <string name="aleksandra_karadjordjoevica_29_novi_beograd">Aleksandra Karadjordjoevica 29 , Novi Beograd</string>
+    <string name="ovo_je_random_text_koji_koristim_jer_mi_je_u_bazi_ogranicenje_za_podatak_opis_oko_30_charactera_i_sada_moram_da_ispbrobam_ovakav_text_da_bih_popravio_dizajn_aplikacije">Ovo je random text koji koristim jer mi je u bazi ogranicenje za podatak opis oko 30 charactera i sada moram da ispbrobam ovakav text da bih popravio dizajn aplikacije</string>
+    <string name="prihvati">Prihvati</string>
+    <string name="zavrsi">Zavrsi</string>
+    <string name="otkazi">Otkazi</string>
+    <string name="pomoc_van_kuce">Pomoc van kuce</string>
+    <string name="zatrazipomoc">zatrazipomoc</string>
+    <string name="unesite_vase_ime_i_prezime">Unesite vase ime i prezime</string>
+    <string name="kratak_opis">Kratak opis</string>
+    <string name="unesite_vas_broj_telefona">Unesite vas broj telefona</string>
+    <string name="logout">logout</string>
+    <string name="zatrazite_pomoc">Zatrazite pomoc</string>
+    <string name="zatrazene">zatrazene</string>
+  <string name="opis1">opis1</string>
+  <string name="prijavite_se">Prijavite se</string>
+  <string name="nemate_nalog_kliknite_ovde">Nemate nalog? Kliknite ovde</string>
+  <string name="textview">TextView</string>
+  <string name="zdravo_pantelicuros02">Zdravo pantelicuros02</string>
+  <string name="imate_xyz_bodova">Imate xyz bodova</string>
+  <string name="kliknite_ovde">Kliknite ovde</string>
+  <string name="nas_instagram">Nas instagram</string>
+  <string name="nas_facebook">Nas facebook</string>
+  <string name="nas_sajt">Nas sajt</string>
+  <string name="Kliknite_ovde1">Kliknite</string>
+  <string name="registracija">Registracija</string>
+  <string name="registrujte_se">Registrujte se</string>
+  <string name="korisnik">Korisnik</string>
+  <string name="vec_imate_nalog_kliknite_ovde">Vec imate nalog? Kliknite ovde</string>
+</resources>

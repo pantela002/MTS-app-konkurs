@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/carter_one</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/frijole</item>
+        <item>@font/gorditas</item>
+        <item>@font/jacques_francois_shadow</item>
+        <item>@font/lilita_one</item>
+        <item>@font/luckiest_guy</item>
+        <item>@font/rammetto_one</item>
+        <item>@font/trade_winds</item>
+    </array>
+</resources>

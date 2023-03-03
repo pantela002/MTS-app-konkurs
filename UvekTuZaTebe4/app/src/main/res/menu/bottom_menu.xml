@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/prviFragment"
+        android:icon="@drawable/ic_baseline_place"
+        android:title="Mapa" />
+    <item
+        android:id="@+id/drugiFragment"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Aktivnost" />
+    <item
+        android:id="@+id/treciFragment"
+        android:icon="@drawable/ic_baseline_dashboard_24"
+        android:title="Statistike" />
+</menu>

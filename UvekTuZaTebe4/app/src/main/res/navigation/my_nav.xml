@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/prviFragment">
+
+    <fragment
+        android:id="@+id/prviFragment"
+        android:name="pak.apl.uvektuzatebe.volonter.PrviFragment"
+        android:label="fragment_prvi"
+        tools:layout="@layout/fragment_prvi" />
+    <fragment
+        android:id="@+id/drugiFragment"
+        android:name="pak.apl.uvektuzatebe.volonter.DrugiFragment"
+        android:label="fragment_drugi"
+        tools:layout="@layout/fragment_drugi" />
+    <fragment
+        android:id="@+id/treciFragment"
+        android:name="pak.apl.uvektuzatebe.volonter.TreciFragment"
+        android:label="fragment_treci"
+        tools:layout="@layout/fragment_treci" />
+</navigation>

@@ -1,0 +1,4 @@
+pak/apl/uvektuzatebe/test/BuildConfig.java
+ pak.apl.uvektuzatebe.test.BuildConfig
+pak/apl/uvektuzatebe/ExampleInstrumentedTest.java
+ pak.apl.uvektuzatebe.ExampleInstrumentedTest

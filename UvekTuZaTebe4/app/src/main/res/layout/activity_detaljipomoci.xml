@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/custom_button"
+    tools:context=".volonter.Detaljipomoci">
+
+    <ImageButton
+        android:id="@+id/nazadbatn99"
+        android:layout_width="44dp"
+        android:layout_height="48dp"
+        android:background="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:srcCompat="@drawable/ic_baseline_west_24"
+        android:contentDescription="@string/nazad" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13">
+
+        <ImageView
+            android:id="@+id/slika99"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ic_baseline_place"
+            android:contentDescription="@string/slika1" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/naslov99"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/pomoc_kod_kuce"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41000003" />
+
+    <TextView
+        android:id="@+id/ime99"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_marginTop="21dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/pantelic_uros"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/telefon99"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+
+        android:fontFamily="@font/carter_one"
+        android:text="@string/_066666666"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.529" />
+
+    <TextView
+        android:id="@+id/lokacija99"
+        android:layout_width="350dp"
+        android:layout_height="74dp"
+        android:layout_gravity="fill"
+
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/aleksandra_karadjordjoevica_29_novi_beograd"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <TextView
+        android:id="@+id/opis99"
+        android:layout_width="350dp"
+        android:layout_height="124dp"
+        android:layout_gravity="fill"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/ovo_je_random_text_koji_koristim_jer_mi_je_u_bazi_ogranicenje_za_podatak_opis_oko_30_charactera_i_sada_moram_da_ispbrobam_ovakav_text_da_bih_popravio_dizajn_aplikacije"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/prihvati99"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/prihvati"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/zavrsi99"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/zavrsi"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/otkazi99"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/otkazi"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.92" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
